@@ -41,21 +41,42 @@ columns = ["A", "I", "U", "E", "O"]
 
 def character_practice():
     # return "Modo practica"
-    print("🇯🇵 Mode Practice On 🍱")
+    print("🇯🇵  Mode Practice On 🍥\n")
     flag = True
     n_correct = 0
     
     while(flag):
         random_dict = random.choice(katakana_dict)
         random_item = random.choice(list(random_dict.items()))
-        answer = input(f"{random_item[0]}: ")
+        answer = input(f"\t\t\t  {n_correct+1} -> {random_item[0]}: ")
         if answer.lower() == random_item[1]:
             n_correct += 1
             continue
         else:
+            print(f"❌ Incorrect: {random_item[0]} -> {random_item[1]}\n")
             flag = False
     return n_correct
 
+# def view_word():
+#     word = input("🔍 Insert the word in romaji: ")
+
+def view_random_word():
+    try:
+        with open("katakana-words.txt", "r", encoding="utf-8") as file:
+
+            lineas = file.readlines()
+            
+            # limpiar saltos de linea y guardar en una lista
+            palabras = [linea.strip() for linea in lineas]
+            
+            palabra_aleatoria = random.choice(palabras)
+            
+            # Imprimir la palabra al azar
+            print(f'\n\t\tPalabra al azar: {palabra_aleatoria}\n')
+        
+    except FileNotFoundError:
+        print("File Not Found -> Closing app :( ")
+        exit()
 
 
 def view_dict():
@@ -95,15 +116,16 @@ def exit_app():
     exit()
 
 def main():
+    print(" 0️⃣  Exit")
     print(" 1️⃣  Start Practice")
     print(" 2️⃣  View Katakana Dict")
-    print(" 3️⃣  Exit")
+    print(" 3️⃣  View Random Word")
     
     # ---- Timer: Cuanto tiempo dedicaste a practicar! ----
     timer = 0
     
     # ---- Main program: ----
-    mode = int(input("Select an option (1-3): "))
+    mode = int(input("\nSelect an option (0-3): "))
     
     if mode == 1:
         try:
@@ -123,12 +145,15 @@ def main():
                 file.write(str(n_corrects))  
             print(f"¡New Record! Actual score: {n_corrects}.")
         else:
-            print(f"Keep working: Record is still: {current_record}.")
+            print(f"Keep working: Record is still: {current_record}.\n")
 
     elif mode == 2:
         view_dict()
     
     elif mode == 3:
+        view_random_word()
+    
+    elif mode == 0:
         exit_app()
     
     else:
@@ -136,7 +161,7 @@ def main():
 
 
 if __name__ == "__main__":
-    print(">> Welcome to the Katakana Practice App! 🎌")
-    print("──────────────────────────────────────")
+    print("\n\t\t 🇯🇵  Welcome to the Katakana Practice App! 🎌")
+    print()
     while(True):
         main()  
