@@ -1,0 +1,578 @@
+ニンゲン, ningen, humano  
+ヒト, hito, persona  
+オトコ, otoko, hombre  
+オンナ, onna, mujer  
+カゾク, kazoku, familia  
+アシ, ashi, pie, pierna  
+カカト, kakato, talón  
+スネ, sune, espinilla  
+ヒザ, hiza, rodilla  
+モモ, momo, muslo  
+アタマ, atama, cabeza  
+カオ, kao, cara  
+クチ, kuchi, boca  
+クチビル, kuchibiru, labios  
+ハ, ha, diente  
+ハナ, hana, nariz  
+ヒゲ, hige, bigotes  
+ミミ, mimi, oreja  
+イ, i, estómago  
+ウデ, ude, brazo  
+ヒジ, hiji, codo  
+カタ, kata, hombro  
+ツメ, tsume, uña  
+テ, te, mano  
+テクビ, tekubi, muñeca  
+ユビ, yubi, dedo  
+シリ, shiri, trasero, cola, nalgas  
+オナカ, onaka, abdomen  
+カンゾウ, kanzō, hígado  
+キンニク, kin'niku, músculo  
+クビ, kubi, cuello  
+ココロ, kokoro, corazón, mente, alma  
+コシ, koshi, cintura, cadera, parte inferior de la espalda  
+セナカ, senaka, espalda  
+チ, chi, sangre  
+ニク, niku, carne  
+ハダ, hada, piel humana  
+ヒフ, hifu, piel en general  
+ホネ, hone, hueso  
+ムネ, mune, pecho  
+カゼ, kaze, resfriado  
+ゲリ, geri, diarrea  
+ビョウキ, byōki, enfermedad  
+オヤ, oya, padres  
+コドモ, kodomo, niño/a, hijo/a  
+チチ, chichi, padre  
+ハハ, haha, madre  
+ツマ, tsuma, esposa  
+オット, otto, esposo  
+アニ, ani, hermano mayor  
+アネ, ane, hermana mayor  
+オトウト, otōto, hermano menor  
+イモウト, imōto, hermana menor  
+キョウダイ, kyōdai, hermanos/as  
+シマイ, shimai, hermanas  
+ソフ, sofu, abuelo  
+ソボ, sobo, abuela  
+マゴ, mago, nieto/a  
+オジ, oji, tío  
+オバ, oba, tía  
+イキモノ, ikimono, criatura, ser vivo  
+ドウブツ, dōbutsu, animal  
+イヌ, inu, perro  
+ネコ, neko, gato  
+ウシ, ushi, vaca  
+ブタ, buta, cerdo  
+ウマ, uma, caballo  
+ヒツジ, hitsuji, oveja  
+サル, saru, mono  
+ネズミ, nezumi, ratón/rata  
+トラ, tora, tigre  
+ウサギ, usagi, conejo  
+リュウ, ryuu, dragón  
+シカ, shika, ciervo  
+カエル, kaeru, rana  
+ライオン, raion, león  
+キリン, kirin, jirafa  
+ゾウ, zō, elefante  
+トリ, tori, pájaro  
+ニワトリ, niwatori, gallina  
+スズメ, suzume, gorrión  
+カラス, karasu, cuervo  
+ワシ, washi, águila  
+タカ, taka, halcón  
+サカナ, sakana, pez  
+タイ, tai, pargo japonés, besugo  
+エビ, ebi, camarón, langosta  
+イワシ, iwashi, sardina  
+マグロ, maguro, atún  
+カツオ, katsuo, atún listado, bonito  
+サンマ, sanma, lucio  
+アジ, aji, jurel, Trachurus japonicus  
+タコ, tako, pulpo  
+ムシ, mushi, insecto  
+チョウ, chō, mariposa  
+ガ, ga, polilla  
+トンボ, tonbo, libélula  
+バッタ, batta, saltamontes  
+クモ, kumo, araña  
+ホタル, hotaru, luciérnaga  
+ハエ, hae, mosca  
+カ, ka, mosquito  
+ゴキブリ, gokiburi, cucaracha  
+カタツムリ, katatsumuri, caracol  
+ナメクジ, namekuji, babosa  
+ミミズ, mimizu, lombriz de tierra  
+カイ, kai, marisco  
+カイガラ, kaigara, concha de molusco  
+ヤサイ, yasai, verdura  
+ハクサイ, hakusai, col china  
+ダイコン, daikon, rábano japonés  
+ニンジン, ninjin, zanahoria  
+ゴボウ, gobō, raíz de bardana  
+レンコン, renkon, raíz de loto  
+タマネギ, tamanegi, cebolla  
+ネギ, negi, puerro, cebollín  
+ジャガイモ, jagaimo, papa  
+サツマイモ, satsumaimo, camote, batata  
+ナス, nasu, berenjena  
+トマト, tomato, tomate  
+キュウリ, kyūri, pepino  
+ピーマン, pīman, pimiento  
+カボチャ, kabocha, calabaza  
+トウモロコシ, tōmorokoshi, maíz  
+エダマメ, edamame, soja tierna  
+ホウレンソウ, hōrensō, espinaca  
+キャベツ, kyabetsu, repollo  
+レタス, retasu, lechuga  
+シイタケ, shiitake, hongo shiitake  
+マツタケ, matsutake, hongo matsutake  
+シメジ, shimeji, hongo shimeji  
+エノキ, enoki, hongo enoki  
+コンニャク, konnyaku, konjac  
+クサ, kusa, hierba  
+ミズ, mizu, agua  
+オチャ, ocha, té  
+コーヒー, kōhī, café  
+ギュウニュウ, gyūnyū, leche  
+ジュース, jūsu, jugo  
+ビール, bīru, cerveza  
+サケ, sake, sake japonés  
+ワイン, wain, vino  
+ウィスキー, uisukī, whisky  
+パン, pan, pan  
+ゴハン, gohan, arroz cocido, comida  
+ミソ, miso, pasta de soya fermentada  
+ショウユ, shōyu, salsa de soja  
+ス, su, vinagre  
+シオ, shio, sal  
+サトウ, satō, azúcar  
+コショウ, koshō, pimienta  
+トウガラシ, tōgarashi, ají, chile  
+ショウガ, shōga, jengibre  
+ワサビ, wasabi, wasabi  
+タマゴ, tamago, huevo  
+ニク, niku, carne  
+ギュウニク, gyūniku, carne de res  
+ブタニク, butaniku, carne de cerdo  
+トリニク, toriniku, carne de pollo  
+サカナ, sakana, pescado  
+エビ, ebi, camarón  
+カニ, kani, cangrejo  
+イカ, ika, calamar  
+タコ, tako, pulpo  
+ノリ, nori, alga marina  
+カイ, kai, molusco  
+フルーツ, furūtsu, fruta  
+ミカン, mikan, mandarina  
+リンゴ, ringo, manzana  
+バナナ, banana, plátano  
+モモ, momo, durazno  
+ナシ, nashi, pera japonesa  
+イチゴ, ichigo, fresa  
+ブドウ, budō, uva  
+スイカ, suika, sandía  
+メロン, meron, melón  
+パイナップル, painappuru, piña  
+カキ, kaki, caqui  
+クリ, kuri, castaña  
+クルミ, kurumi, nuez  
+ゴマ, goma, sésamo  
+アーモンド, āmondo, almendra  
+ナッツ, nattsu, nueces  
+ヒマワリ, himawari, girasol  
+ツバキ, tsubaki, camelia  
+サクラ, sakura, cerezo  
+ウメ, ume, ciruelo japonés  
+モミジ, momiji, arce japonés  
+カエデ, kaede, arce  
+マツ, matsu, pino  
+ハナ, hana, flor  
+クサ, kusa, hierba  
+キ, ki, árbol  
+ミ, mi, fruto  
+タネ, tane, semilla  
+ハ, ha, hoja  
+ネ, ne, raíz  
+カゼ, kaze, viento  
+アメ, ame, lluvia  
+ユキ, yuki, nieve  
+カミナリ, kaminari, trueno, relámpago  
+タイヨウ, taiyō, sol  
+ツキ, tsuki, luna  
+ホシ, hoshi, estrella  
+ソラ, sora, cielo  
+クモ, kumo, nube  
+オカ, oka, colina  
+ヤマ, yama, montaña  
+タニ, tani, valle  
+カワ, kawa, río  
+ミズウミ, mizuumi, lago  
+ウミ, umi, mar, océano  
+イシ, ishi, piedra  
+カゼ, kaze, viento  
+アメ, ame, lluvia  
+ユキ, yuki, nieve  
+カミナリ, kaminari, trueno, relámpago  
+タイヨウ, taiyō, sol  
+ツキ, tsuki, luna  
+ホシ, hoshi, estrella  
+ソラ, sora, cielo  
+クモ, kumo, nube  
+オカ, oka, colina  
+ヤマ, yama, montaña  
+タニ, tani, valle  
+カワ, kawa, río  
+ミズウミ, mizuumi, lago  
+ウミ, umi, mar, océano  
+イシ, ishi, piedra  
+スナ, suna, arena  
+ドロ, doro, barro  
+キシ, kishi, orilla  
+シマ, shima, isla  
+ハシ, hashi, puente  
+ミチ, michi, camino  
+トンネル, tonneru, túnel  
+モリ, mori, bosque  
+ハヤシ, hayashi, arboleda  
+ノハラ, nohara, pradera  
+タ, ta, arrozal  
+ハタケ, hatake, campo de cultivo  
+ムラ, mura, aldea  
+マチ, machi, pueblo, ciudad pequeña  
+トシ, toshi, ciudad  
+クニ, kuni, país  
+セカイ, sekai, mundo  
+ウチ, uchi, casa, hogar  
+イエ, ie, casa  
+ヤネ, yane, techo  
+ヘヤ, heya, habitación  
+ドア, doa, puerta  
+マド, mado, ventana  
+カベ, kabe, pared  
+ユカ, yuka, suelo  
+テンジョウ, tenjō, techo interior  
+カイダン, kaidan, escalera  
+エレベーター, erebētā, ascensor  
+ベランダ, beranda, balcón  
+ニワ, niwa, jardín  
+ゲンカン, genkan, entrada, recibidor  
+フロ, furo, baño  
+トイレ, toire, inodoro  
+オフロ, ofuro, bañera  
+ベッド, beddo, cama  
+テーブル, tēburu, mesa  
+イス, isu, silla  
+ソファ, sofa, sofá  
+タンス, tansu, armario  
+テレビ, terebi, televisión  
+コンピュータ, konpyūta, computadora  
+スマホ, sumaho, teléfono inteligente  
+デンワ, denwa, teléfono  
+メガネ, megane, gafas  
+カバン, kaban, bolso  
+サイフ, saifu, billetera  
+クツ, kutsu, zapatos  
+スリッパ, surippa, pantuflas  
+クツシタ, kutsushita, calcetines  
+ズボン, zubon, pantalones  
+スカート, sukāto, falda  
+シャツ, shatsu, camisa  
+セーター, sētā, suéter  
+コート, kōto, abrigo  
+ネクタイ, nekutai, corbata  
+ボウシ, bōshi, sombrero  
+カサ, kasa, paraguas  
+カギ, kagi, llave  
+ドライバー, doraibā, destornillador  
+ペン, pen, bolígrafo  
+エンピツ, enpitsu, lápiz  
+ノート, nōto, cuaderno  
+ホン, hon, libro  
+カミ, kami, papel  
+カレンダー, karendā, calendario  
+ジショ, jisho, diccionario  
+テガミ, tegami, carta  
+ハガキ, hagaki, postal  
+シンブン, shinbun, periódico  
+ザッシ, zasshi, revista  
+ガッコウ, gakkō, escuela  
+ダイガク, daigaku, universidad  
+キョウシツ, kyōshitsu, aula  
+セイト, seito, estudiante  
+センセイ, sensei, maestro, profesor  
+ホンヤ, honya, librería  
+スーパー, sūpā, supermercado  
+デパート, depāto, tienda departamental  
+レストラン, resutoran, restaurante  
+カフェ, kafe, cafetería  
+エキ, eki, estación de tren  
+クウコウ, kūkō, aeropuerto  
+ホテル, hoteru, hotel  
+ビョウイン, byōin, hospital  
+ヤッキョク, yakkyoku, farmacia  
+ポスト, posuto, buzón  
+ユウビンキョク, yūbinkyoku, oficina de correos  
+ギンコウ, ginkō, banco  
+ケイサツショ, keisatsusho, estación de policía  
+ショウボウショ, shōbōsho, estación de bomberos  
+シヤクショ, shiyakusho, ayuntamiento  
+コウエン, kōen, parque  
+ドウブツエン, dōbutsuen, zoológico  
+スイゾクカン, suizokukan, acuario  
+ビジツカン, bijutsukan, museo de arte  
+ハクブツカン, hakubutsukan, museo  
+ジョギング, jogingu, trotar  
+ランニング, ranningu, correr  
+スイエイ, suiei, natación  
+テニス, tenisu, tenis  
+サッカー, sakkā, fútbol  
+バスケットボール, basukettobōru, baloncesto  
+バレーボール, barēbōru, voleibol  
+ゴルフ, gorufu, golf  
+スキー, sukī, esquí  
+スノーボード, sunōbōdo, snowboard  
+ボウリング, bōringu, bolos  
+ピクニック, pikunikku, picnic  
+ハイキング, haikingu, senderismo  
+キャンプ, kyanpu, campamento  
+カラオケ, karaoke, karaoke  
+ゲーム, gēmu, juego  
+カード, kādo, carta  
+パズル, pazuru, rompecabezas  
+マンガ, manga, manga  
+アニメ, anime, anime  
+エイガ, eiga, película  
+オンガク, ongaku, música  
+ギター, gitā, guitarra  
+ピアノ, piano, piano  
+バイオリン, baiorin, violín  
+ドラム, doramu, batería  
+フルート, furūto, flauta  
+トランペット, toranpetto, trompeta  
+オーケストラ, ōkesutora, orquesta  
+コンサート, konsāto, concierto  
+ショクジ, shokuji, comida  
+ゴハン, gohan, arroz, comida  
+パン, pan, pan  
+サンドイッチ, sandoicchi, sándwich  
+スープ, sūpu, sopa  
+サラダ, sarada, ensalada  
+ヤサイ, yasai, verduras  
+ニク, niku, carne  
+トリニク, toriniku, carne de pollo  
+ブタニク, butaniku, carne de cerdo  
+ギュウニク, gyūniku, carne de res  
+サカナ, sakana, pescado  
+エビ, ebi, camarón  
+カニ, kani, cangrejo  
+タマゴ, tamago, huevo  
+ミルク, miruku, leche  
+チーズ, chīzu, queso  
+バター, batā, mantequilla  
+ヨーグルト, yōguruto, yogur  
+フルーツ, furūtsu, frutas  
+リンゴ, ringo, manzana  
+ミカン, mikan, mandarina  
+バナナ, banana, plátano  
+イチゴ, ichigo, fresa  
+ブドウ, budō, uva  
+スイカ, suika, sandía  
+モモ, momo, durazno  
+ナシ, nashi, pera japonesa  
+レモン, remon, limón  
+オレンジ, orenji, naranja  
+トマト, tomato, tomate  
+ジャガイモ, jagaimo, papa  
+ニンジン, ninjin, zanahoria  
+タマネギ, tamanegi, cebolla  
+ハクサイ, hakusai, col china  
+ナス, nasu, berenjena  
+キュウリ, kyūri, pepino  
+ホウレンソウ, hōrensō, espinaca  
+シイタケ, shiitake, hongo shiitake  
+コンブ, konbu, alga  
+ノリ, nori, alga nori  
+ショウユ, shōyu, salsa de soja  
+ミソ, miso, pasta de miso  
+サトウ, satō, azúcar  
+シオ, shio, sal  
+コショウ, koshō, pimienta  
+ス, su, vinagre  
+ユズ, yuzu, cítrico japonés  
+オイル, oiru, aceite  
+ソース, sōsu, salsa  
+マヨネーズ, mayonēzu, mayonesa  
+ケチャップ, kechappu, kétchup  
+コーヒー, kōhī, café  
+ココア, kokoa, cacao  
+ジュース, jūsu, jugo  
+ソーダ, sōda, soda  
+ビール, bīru, cerveza  
+ワイン, wain, vino  
+サケ, sake, sake, licor japonés  
+ウイスキー, Uisukī, Whisky  
+ウォッカ, Wokka, Vodka  
+ラム, Ramu, Ron  
+テキーラ, Tekīra, Tequila  
+カクテル, Kakuteru, Cóctel  
+ミネラルウォーター, Mineraru Wōtā, Agua mineral  
+オチャ, Ocha, Té  
+コウチャ, Kōcha, Té negro  
+リョクチャ, Ryokucha, Té verde  
+ウドン, Udon, Fideos udon  
+ソバ, Soba, Fideos soba  
+ラーメン, Rāmen, Ramen  
+スシ, Sushi, Sushi  
+サシミ, Sashimi, Sashimi  
+テンプラ, Tenpura, Tempura  
+オニギリ, Onigiri, Bola de arroz  
+トウフ, Tōfu, Tofu  
+ヤキトリ, Yakitori, Brocheta de pollo  
+ギョウザ, Gyōza, Empanadilla  
+カラアゲ, Karaage, Pollo frito  
+オコノミヤキ, Okonomiyaki, Panqueque japonés  
+タコヤキ, Takoyaki, Bolitas de pulpo  
+チャーハン, Chāhan, Arroz frito  
+カレー, Karē, Curry  
+ベントウ, Bentō, Lonchera japonesa  
+カイシャ, Kaisha, Empresa  
+シゴト, Shigoto, Trabajo  
+キョウシ, Kyōshi, Profesor  
+イシャ, Isha, Médico  
+ケイサツカン, Keisatsukan, Policía  
+ショウボウシ, Shōbōshi, Bombero  
+ギンコウイン, Ginkōin, Empleado de banco  
+エイゴ, Eigo, Inglés  
+ニホンゴ, Nihongo, Japonés  
+チュウゴクゴ, Chūgokugo, Chino  
+カンコクゴ, Kankokugo, Coreano  
+ドイツゴ, Doitsugo, Alemán  
+フランスゴ, Furansugo, Francés  
+スペインゴ, Supeingo, Español  
+イタリアゴ, Itariago, Italiano  
+ポルトガルゴ, Porutogarugo, Portugués  
+ロシアゴ, Roshiago, Ruso  
+アラビアゴ, Arabiago, Árabe  
+ヒル, Hiru, Mediodía  
+ヨル, Yoru, Noche  
+アサ, Asa, Mañana  
+バン, Ban, Noche  
+イマ, Ima, Ahora  
+キノウ, Kinō, Ayer  
+キョウ, Kyō, Hoy  
+アシタ, Ashita, Mañana  
+アサッテ, Asatte, Pasado mañana  
+オトトイ, Ototoi, Anteayer  
+センシュウ, Senshū, La semana pasada  
+コンシュウ, Konshū, Esta semana  
+ライシュウ, Raishū, La próxima semana  
+センゲツ, Sengetsu, El mes pasado  
+コンゲツ, Kongetsu, Este mes  
+ライゲツ, Raigetsu, El próximo mes  
+キョネン, Kyonen, El año pasado  
+コトシ, Kotoshi, Este año  
+ライネン, Rainen, El próximo año  
+アサゴハン, Asagohan, Desayuno  
+ヒルゴハン, Hirugohan, Almuerzo  
+バンゴハン, Bangohan, Cena  
+ヤスミ, Yasumi, Descanso  
+シュウマツ, Shūmatsu, Fin de semana  
+キュウジツ, Kyūjitsu, Día festivo  
+シンブン, Shinbun, Periódico  
+ザッシ, Zasshi, Revista  
+ホン, Hon, Libro  
+テガミ, Tegami, Carta  
+ニモツ, Nimotsu, Equipaje  
+プレゼント, Purezento, Regalo  
+シャシン, Shashin, Foto  
+エイガ, Eiga, Película  
+テレビ, Terebi, Televisión  
+ラジオ, Rajio, Radio  
+コンピューター, Konpyūtā, Computadora  
+ケイタイデンワ, Keitai Denwa, Teléfono móvil  
+スマートフォン, Sumātofon, Smartphone  
+タクシー, Takushī, Taxi  
+バス, Basu, Autobús  
+デンシャ, Densha, Tren  
+シンカンセン, Shinkansen, Tren bala  
+ヒコウキ, Hikōki, Avión  
+フネ, Fune, Barco  
+ジテンシャ, Jitensha, Bicicleta  
+アルク, Aruku, Caminar  
+ハシル, Hashiru, Correr  
+ノル, Noru, Subir (a un vehículo)  
+オリル, Oriru, Bajar (de un vehículo)  
+イク, Iku, Ir  
+クル, Kuru, Venir  
+カエル, Kaeru, Volver  
+デカケル, Dekakeru, Salir  
+アウ, Au, Encontrarse  
+ハナス, Hanasu, Hablar  
+キク, Kiku, Escuchar  
+ミル, Miru, Ver  
+ヨム, Yomu, Leer  
+カク, Kaku, Escribir  
+マデ, Made, Hasta  
+バカリ, Bakari, Solo, solo que, nada más  
+モウ, Mō, Ya  
+ダケ, Dake, Solo, nada más  
+ト, To, Y  
+デ, De, En, por  
+ニ, Ni, A, en (dirección)  
+ヘ, E, Hacia  
+ヲ, O, Partícula de objeto directo  
+カラ, Kara, Desde  
+マデ, Made, Hasta  
+ヨリ, Yori, De, desde  
+トシ, Toshi, Año  
+ツギ, Tsugi, Siguiente  
+チョット, Chotto, Un poco, un momento  
+スグ, Sugu, Inmediatamente  
+タダ, Tada, Solo, gratis  
+ナラ, Nara, Si  
+モシ, Moshi, Si (si hipotético)  
+ゼンゼン, Zenzen, En absoluto  
+ジカン, Jikan, Tiempo  
+サキ, Saki, Adelante, antes  
+ナンデ, Nande, Por qué  
+ドウシテ, Dōshite, Cómo, por qué  
+ウエ, Ue, Arriba  
+シタ, Shita, Abajo  
+マエ, Mae, Antes  
+アト, Ato, Después  
+アイ, Ai, Amor  
+キモチ, Kimochi, Sentimiento  
+オモイ, Omoi, Pensamiento, sentimiento  
+セカイ, Sekai, Mundo  
+ココロ, Kokoro, Corazón, mente  
+カラダ, Karada, Cuerpo  
+ハナ, Hana, Nariz  
+カオ, Kao, Cara  
+メ, Me, Ojo  
+ミミ, Mimi, Oído  
+アシ, Ashi, Pie  
+テ, Te, Mano  
+ホホ, Hoho, Mejilla  
+カラダ, Karada, Cuerpo  
+アタマ, Atama, Cabeza  
+ワカリマス, Wakarimasu, Entender (formal)  
+ワカル, Wakaru, Entender  
+オモウ, Omou, Pensar  
+ハシリマス, Hashirimasu, Correr (formal)  
+タベマス, Tabemasu, Comer (formal)  
+ノミマス, Nomimasu, Beber (formal)  
+イキマス, Ikimasu, Ir (formal)  
+カエリマス, Kaerimasu, Volver (formal)  
+キキマス, Kikimasu, Escuchar (formal)  
+ミマス, Mimasu, Ver (formal)  
+カキマス, Kakimasu, Escribir (formal)  
+アソビマス, Asobimasu, Jugar (formal)  
+スワリマス, Suwarimasu, Sentarse (formal)  
+タチマス, Tachimasu, Levantarse (formal)  
+モツ, Motsu, Tener (cosas)  
+カウ, Kau, Comprar  
+ウケル, Ukeru, Recibir  
+ワスレル, Wasureru, Olvidar  
+カカワル, Kakawaru, Estar relacionado con  
