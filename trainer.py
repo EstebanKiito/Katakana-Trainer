@@ -37,16 +37,50 @@ katakana_dict = [
     {"ピャ": "pya", "ピュ": "pyu", "ピョ": "pyo"}
 ]
 
+hiragana_dict = [
+    {"あ": "a",  "い": "i",  "う": "u",  "え": "e",  "お": "o"},
+    {"か": "ka", "き": "ki", "く": "ku", "け": "ke", "こ": "ko"},
+    {"さ": "sa", "し": "shi", "す": "su", "せ": "se", "そ": "so"},
+    {"た": "ta", "ち": "chi", "つ": "tsu", "て": "te", "と": "to"},
+    {"な": "na", "に": "ni", "ぬ": "nu", "ね": "ne", "の": "no"},
+    {"は": "ha", "ひ": "hi", "ふ": "fu", "へ": "he", "ほ": "ho"},
+    {"ま": "ma", "み": "mi", "む": "mu", "め": "me", "も": "mo"},
+    {"や": "ya", "ゆ": "yu", "よ": "yo"},
+    {"ら": "ra", "り": "ri", "る": "ru", "れ": "re", "ろ": "ro"},
+    {"わ": "wa", "を": "wo"},
+    {"ん": "n"},
+    {"が": "ga", "ぎ": "gi", "ぐ": "gu", "げ": "ge", "ご": "go"},
+    {"ざ": "za", "じ": "ji", "ず": "zu", "ぜ": "ze", "ぞ": "zo"},
+    {"だ": "da", "ぢ": "ji", "づ": "zu", "で": "de", "ど": "do"},
+    {"ば": "ba", "び": "bi", "ぶ": "bu", "べ": "be", "ぼ": "bo"},
+    {"ぱ": "pa", "ぴ": "pi", "ぷ": "pu", "ぺ": "pe", "ぽ": "po"},
+    {"きゃ": "kya", "きゅ": "kyu", "きょ": "kyo"},
+    {"しゃ": "sha", "しゅ": "shu", "しょ": "sho"},
+    {"ちゃ": "cha", "ちゅ": "chu", "ちょ": "cho"},
+    {"にゃ": "nya", "にゅ": "nyu", "にょ": "nyo"},
+    {"ひゃ": "hya", "ひゅ": "hyu", "ひょ": "hyo"},
+    {"みゃ": "mya", "みゅ": "myu", "みょ": "myo"},
+    {"りゃ": "rya", "りゅ": "ryu", "りょ": "ryo"},
+    {"ぎゃ": "gya", "ぎゅ": "gyu", "ぎょ": "gyo"},
+    {"じゃ": "ja",  "じゅ": "ju",  "じょ": "jo"},
+    {"びゃ": "bya", "びゅ": "byu", "びょ": "byo"},
+    {"ぴゃ": "pya", "ぴゅ": "pyu", "ぴょ": "pyo"}
+]
+
 columns = ["A", "I", "U", "E", "O"]
 
-def character_practice():
+def character_practice(type):
     # return "Modo practica"
     print("🇯🇵  Mode Practice On 🍥\n")
     flag = True
     n_correct = 0
     
     while(flag):
-        random_dict = random.choice(katakana_dict)
+        if type == "katakana":
+            random_dict = random.choice(katakana_dict)
+        elif type == "hiragana":
+            random_dict = random.choice(hiragana_dict)
+            
         random_item = random.choice(list(random_dict.items()))
         answer = input(f"\t\t\t  {n_correct+1} -> {random_item[0]}: ")
         if answer.lower() == random_item[1]:
@@ -79,15 +113,20 @@ def view_random_word():
         exit()
 
 
-def view_dict():
+def view_dict(type):
     # for key,value in katakana_dict.items():
     #     print(f"{key} -> {value}")
 
-    print("\n\t📜 Katakana Chart 📜")
+    if type == "katana":
+        print("\n\t📜 Katakana Chart 📜")
+    elif type == "hiragana":
+        print("\n\t📜 Hiragana Chart 📜")
+
     print("──────────────────────────────────────")
     print("       " + "      ".join(columns))  # Encabezado
 
-    for elem in katakana_dict:
+    dict = katakana_dict if type == "katakana" else hiragana_dict if type == "hiragana" else None
+    for elem in dict:
         # print(elem)
         # --- Algoritmo a continuacion -> Mejorar: No se me ocurrio otra forma parcialmente
         random_item = random.choice(list(elem.items())) # (llave, valor)
@@ -117,17 +156,22 @@ def exit_app():
 
 def main():
     print(" 0️⃣  Exit")
-    print(" 1️⃣  Start Practice")
-    print(" 2️⃣  View Katakana Dict")
-    print(" 3️⃣  View Random Word")
+    print(" 1️⃣  Start Katakana Practice")
+    print(" 2️⃣  Start Hiragana Practice")
+    print(" 3️⃣  View Katakana Dict")
+    print(" 4️⃣  View Hiragana Dict")
+    print(" 5️⃣  View Katakana Random Word")
     
     # ---- Timer: Cuanto tiempo dedicaste a practicar! ----
     timer = 0
     
     # ---- Main program: ----
-    mode = int(input("\nSelect an option (0-3): "))
+    mode = int(input("\nSelect an option (0-5): "))
+
+    if mode == 0:
+        exit_app()
     
-    if mode == 1:
+    elif mode == 1:
         try:
             with open("record.txt", "r") as file:
                 current_record = int(file.read().strip())
@@ -137,7 +181,7 @@ def main():
         print("──────────────────────────────────────")
         print(f"\nThe actual record is: {current_record}! 📚")
 
-        n_corrects = character_practice()
+        n_corrects = character_practice("katakana")
         print (f"🇯🇵 Numbers char correct: {n_corrects} 😈")
         
         if n_corrects > current_record:
@@ -148,13 +192,34 @@ def main():
             print(f"Keep working: Record is still: {current_record}.\n")
 
     elif mode == 2:
-        view_dict()
+        try:
+            with open("record-hiragana.txt", "r") as file:
+                current_record = int(file.read().strip())
+        
+        except FileNotFoundError:
+            current_record = 0
+        print("──────────────────────────────────────")
+        print(f"\nThe actual record is: {current_record}! 📚")
+
+        n_corrects = character_practice("hiragana")
+        print (f"🇯🇵 Numbers char correct: {n_corrects} 😈")
+        
+        if n_corrects > current_record:
+            with open("record-hiragana.txt", "w") as file:
+                file.write(str(n_corrects))  
+            print(f"¡New Record! Actual score: {n_corrects}.")
+        else:
+            print(f"Keep working: Record is still: {current_record}.\n")
+
+
+    elif mode == 3: # Katakana Dict
+        view_dict("katakana")
+
+    elif mode == 4: # Katakana Dict
+        view_dict("hiragana")
     
-    elif mode == 3:
+    elif mode == 5:
         view_random_word()
-    
-    elif mode == 0:
-        exit_app()
     
     else:
         print("\n❌ Invalid choice! Please select a valid option.\n")
