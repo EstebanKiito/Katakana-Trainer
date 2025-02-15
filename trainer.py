@@ -40,7 +40,23 @@ katakana_dict = [
 columns = ["A", "I", "U", "E", "O"]
 
 def character_practice():
-    return "Modo practica"
+    # return "Modo practica"
+    print("\n🇯🇵 Mode Practice On 🍱")
+    flag = True
+    n_correct = 0
+    
+    while(flag):
+        random_dict = random.choice(katakana_dict)
+        random_item = random.choice(list(random_dict.items()))
+        answer = input(f"{random_item[0]}: ")
+        if answer.lower() == random_item[1]:
+            n_correct += 1
+            continue
+        else:
+            flag = False
+    return n_correct
+
+
 
 def view_dict():
     # for key,value in katakana_dict.items():
@@ -90,9 +106,9 @@ def main():
     mode = int(input("Select an option (1-3): "))
     
     if mode == 1:
-        character_practice()
-        # n_corrects = character_practice()
-        # print(f"🇯🇵 Numbers char correct: {n_corrects} 😈")
+        #character_practice()
+        n_corrects = character_practice()
+        print(f"🇯🇵 Numbers char correct: {n_corrects} 😈")
     elif mode == 2:
         view_dict()
     elif mode == 3:
