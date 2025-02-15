@@ -41,7 +41,7 @@ columns = ["A", "I", "U", "E", "O"]
 
 def character_practice():
     # return "Modo practica"
-    print("\n🇯🇵 Mode Practice On 🍱")
+    print("🇯🇵 Mode Practice On 🍱")
     flag = True
     n_correct = 0
     
@@ -106,18 +106,37 @@ def main():
     mode = int(input("Select an option (1-3): "))
     
     if mode == 1:
-        #character_practice()
+        try:
+            with open("record.txt", "r") as file:
+                current_record = int(file.read().strip())
+        
+        except FileNotFoundError:
+            current_record = 0
+        print("──────────────────────────────────────")
+        print(f"\nThe actual record is: {current_record}! 📚")
+
         n_corrects = character_practice()
-        print(f"🇯🇵 Numbers char correct: {n_corrects} 😈")
+        print (f"🇯🇵 Numbers char correct: {n_corrects} 😈")
+        
+        if n_corrects > current_record:
+            with open("record.txt", "w") as file:
+                file.write(str(n_corrects))  
+            print(f"¡New Record! Actual score: {n_corrects}.")
+        else:
+            print(f"Keep working: Record is still: {current_record}.")
+
     elif mode == 2:
         view_dict()
+    
     elif mode == 3:
         exit_app()
+    
     else:
         print("\n❌ Invalid choice! Please select a valid option.\n")
 
 
 if __name__ == "__main__":
     print(">> Welcome to the Katakana Practice App! 🎌")
+    print("──────────────────────────────────────")
     while(True):
         main()  

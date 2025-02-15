@@ -1,0 +1,137 @@
+アクション, akushon, acción
+アイス, aisu, hielo, helado
+アート, aato, arte
+アップ, appu, subida
+アカウント, akaunto, cuenta (de usuario)
+アメリカ, amerika, América, Estados Unidos
+アイデア, idea, idea
+アレルギー, arerugii, alergia
+アニメ, anime, anime
+アジア, ajia, Asia
+アルバイト, arubaito, trabajo a medio tiempo
+アプリ, apuri, aplicación
+アクティブ, akutibu, activo
+アストロノミー, asutoronomii, astronomía
+アスパラガス, asuparagasu, espárrago
+アナウンサー, anaunsaa, anunciante
+アナログ, anarogu, analógico
+アレ, are, eso
+アレックス, arekkusu, Alex
+アフリカ, afurika, África
+アラビア, arabia, Arabia
+アパート, apaato, apartamento
+アップデート, appudeeto, actualización
+アイランド, airando, isla
+アイロン, airon, plancha
+アルファベット, arufabetto, alfabeto
+アメリカン, amerika, americano
+アジア系, ajia-kei, asiático
+アドレス, adoresu, dirección
+アムステルダム, amusuterudamu, Ámsterdam
+アドバイザー, adobaizaa, asesor
+アニマル, animaru, animal
+アシスタント, ashisutanto, asistente
+アーク, aaku, arco
+アクションゲーム, akushon geemu, juego de acción
+アクアリウム, akuariumu, acuario
+アルミニウム, aruminiumu, aluminio
+アメニティ, ameniti, comodidad
+アリ, ari, hormiga
+アリーナ, ariina, arena
+アナログ時計, anarogu tokei, reloj analógico
+アトラクション, atorakushon, atracción
+アイドル, aidoru, ídolo
+アクティビティ, akutibiti, actividad
+アート作品, aato sakuhin, obra de arte
+アフター, afutaa, después
+アクション映画, akushon eiga, película de acción
+アプリケーション, apurikeeshon, aplicación
+アレルギー反応, arerugii hannou, reacción alérgica
+アイルランド, airurando, Irlanda
+アングラ, angura, underground
+アロマ, aroma, aroma
+アレクサンダー, arekusandaa, Alejandro
+アニメーション, animeeshon, animación
+アキラ, akira, Akira
+アフガニスタン, afuganisutan, Afganistán
+アドバンテージ, adobanteiji, ventaja
+アストロ, asutoro, astro
+アートギャラリー, aato gyararii, galería de arte
+アパートメント, apaatomento, apartamento
+アスパラ, asupara, espárrago
+アンドロイド, andoroido, androide
+アメリカンドッグ, amerikandoggu, perrito caliente
+アリーナシート, ariina shiito, asiento de arena
+アロハ, aroha, aloha
+アジェンダ, ajenda, agenda
+アイアン, aian, hierro
+アボカド, abokado, aguacate
+アート展, aato ten, exposición de arte
+アウター, autaa, ropa exterior
+アフリカン, afurikan, africano
+アメージング, ameejingu, asombroso
+アイウェア, aiwea, gafas
+アングル, anguru, ángulo
+アグリ, aguri, agricultura
+アマゾン, amazo, Amazonas
+アダプター, adaputaa, adaptador
+アーチ, aachi, arco
+アウディ, audi, Audi
+アークス, aakusu, Arks
+アラ, ara, allí
+アフターサービス, afutaa saabisu, servicio postventa
+アキバ, akiba, Akihabara
+アトリウム, atoriumu, atrio
+アーチェリー, aacheri, tiro con arco
+アダルト, adaruto, adulto
+アニメーション映画, animeeshon eiga, película de animación
+アドレナリン, adorenarin, adrenalina
+アバター, abata, avatar
+アニメオタク, anime otaku, fanático del anime
+アクア, akua, agua
+アリバイ, aribai, alibi
+アスリート, asuriito, atleta
+アーケード, aakeedo, arcade
+アイデンティティ, aidentiti, identidad
+アフリカ系, afurika-kei, africano
+アクション映画, akushon eiga, película de acción
+アミューズメント, amyuuze mento, entretenimiento
+アイコニック, aikonikku, icónico
+アクアリウム, akuariumu, acuario
+アーティスト, aatisuto, artista
+アクアリスト, akuarisuto, acuicultor
+アジア文化, ajia bunka, cultura asiática
+アングロ, anguro, anglo
+アカデミー, akademii, academia
+アナリスト, anaristo, analista
+アーク, aaku, arco
+アイアンマン, aianman, Iron Man
+アメリカ人, amerika jin, estadounidense
+アナキン, anakin, Anakin
+アバター, abata, avatar
+アカウント, akaunto, cuenta
+アビリティ, abiriti, habilidad
+アフターケア, afutaa kea, atención postventa
+アウチ, auchi, ouch
+アーティファクト, aatifakuto, artefacto
+アキレス, akiresu, Aquiles
+アメリカンフットボール, amerikan futtobooru, fútbol americano
+アサヒ, asahi, Asahi
+アーティファクト, aatifakuto, artefacto
+アンドロメダ, andoromeda, Andrómeda
+アバウト, abauto, aproximadamente
+アコーディオン, akoedeion, acordeón
+アートディレクション, aatodirekushon, dirección de arte
+アタッチメント, atacchimento, accesorio
+アフロ, afuro, afro
+アゲハ, ageha, mariposa
+アーチ, aachi, arco
+アーチェリー, aacheri, tiro con arco
+アラ, ara, eso
+アクアリウム, akuariumu, acuarios
+アウディ, audi, Audi
+アドバイス, adobaisu, consejo
+アートスタイル, aatosutairu, estilo de arte
+アロハ, aroha, aloha
+アドバンス, adobansu, avance
+アカウント, akaunto, cuenta
