@@ -161,9 +161,29 @@ def main():
     print(" 3️⃣  View Katakana Dict")
     print(" 4️⃣  View Hiragana Dict")
     print(" 5️⃣  View Katakana Random Word")
+
     
-    # ---- Timer: Cuanto tiempo dedicaste a practicar! ----
-    timer = 0
+    try:
+        with open("record.txt", "r") as file:
+            #current_record = int(file.read().strip())
+            data = file.read().strip()
+            if data:
+                # current_record, current_time = map(int, data.split(","))
+                current_record, current_time = data.split(",")
+                current_record = int(current_record)  # Asegurar que es un entero
+                current_time = float(current_time)    # Permitir decimales en tiempo
+            else:
+                current_record, current_time = 0, 0
+        
+    except FileNotFoundError:
+            current_record = 0
+            current_time = 0
+    if current_time < 60.0:
+        seg = "s"
+    else:
+        seg = "m"
+
+    print(f"\nLast Record: {current_record} in {current_time}{seg}!!! 📚")
     
     # ---- Main program: ----
     mode = int(input("\nSelect an option (0-5): "))
@@ -172,22 +192,26 @@ def main():
         exit_app()
     
     elif mode == 1:
-        try:
-            with open("record.txt", "r") as file:
-                current_record = int(file.read().strip())
-        
-        except FileNotFoundError:
-            current_record = 0
+
+        # Inicio de la practica
         print("──────────────────────────────────────")
         print(f"\nThe actual record is: {current_record}! 📚")
 
+        # Inicio Temporizador
+        start_time = time.time()
+        
         n_corrects = character_practice("katakana")
+        
+        # Final Temporizador
+        end_time = round( float(time.time() - start_time), 2)
+        seconds = "s" if end_time < 60.0 else "m"
+
         print (f"🇯🇵 Numbers char correct: {n_corrects} 😈")
         
-        if n_corrects > current_record:
+        if n_corrects > current_record or (n_corrects == current_record and end_time < current_time):
             with open("record.txt", "w") as file:
-                file.write(str(n_corrects))  
-            print(f"¡New Record! Actual score: {n_corrects}.")
+                file.write(f"{str(n_corrects)},{str(end_time)}")  
+            print(f"¡New Record! Actual score: {n_corrects} with time: {end_time}{seconds}.")
         else:
             print(f"Keep working: Record is still: {current_record}.\n")
 
